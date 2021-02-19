@@ -1,0 +1,60 @@
+@font-face {font-family: montserrat; src: url("constants/Montserrat-Black.ttf");}
+
+.center-box{
+   display: flex;
+   background-color: #190080;
+   width: 100%;
+   min-width: 770px;
+   height: 350px; 
+   align-items: center;
+   justify-content: center;
+} 
+
+.center-item{
+    background-color: #fae4b6;
+    width: 10%;
+    min-width: 77px;
+    height: 100px;
+ 
+}
+
+.customNav{
+    display: flex;
+    background-color: #6495ed;
+    height: 120px;
+    min-width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navList{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    text-align: right;
+
+}
+
+.navList li{
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.navList li a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+#dojo-icon{
+    height: 70px;
+    width: 100px;
+}
+
+h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
